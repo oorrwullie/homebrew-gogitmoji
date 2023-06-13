@@ -17,6 +17,7 @@ class Gogitmoji < Formula
     if OS.mac?
       url "https://github.com/oorrwullie/gogitmoji/releases/download/v0.0.1/gogitmoji_0.0.1_macOS_arm.tar.gz"
       sha256 "a7c05b6cda760fd91043af3130772e8c32382b2dceb69849f83face790e411d1"
+    end
   end
 
   def install
