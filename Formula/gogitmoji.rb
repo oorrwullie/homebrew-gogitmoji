@@ -10,7 +10,7 @@ class Gogitmoji < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/oorrwullie/gogitmoji/releases/download/v0.0.2/gogitmoji_0.0.2_darwin_arm64.tar.gz"
-      sha256 "24b9b8230e2d491b2d1e35b966941eb888710c8faeb2e7e77f847ff999c3d627"
+      sha256 "eb084cc8784160f074023a710a6ae46b68fa5765ed6bb4dc4f25c65b103a0824"
 
       def install
         bin.install "gitmoji"
@@ -18,7 +18,7 @@ class Gogitmoji < Formula
     end
     if Hardware::CPU.intel?
       url "https://github.com/oorrwullie/gogitmoji/releases/download/v0.0.2/gogitmoji_0.0.2_darwin_amd64.tar.gz"
-      sha256 "33d934b81c29606489dd9c423a701d891895066bb2e268ccb64aaf82d6a9ebc8"
+      sha256 "5b1977dc52c226450970bf60001d2c86bc4d78c840474843b6cfaa7a142aeaef"
 
       def install
         bin.install "gitmoji"
@@ -29,7 +29,7 @@ class Gogitmoji < Formula
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
       url "https://github.com/oorrwullie/gogitmoji/releases/download/v0.0.2/gogitmoji_0.0.2_linux_arm64.tar.gz"
-      sha256 "bd6efe2d60cd22df4085202817e7bcd0b68ed900cf09809fccb2a86774ba18d7"
+      sha256 "d10bd61c7b987532fb5f33a930fd2c5d22393d14f0f6ba3f4c70979fd2ca71db"
 
       def install
         bin.install "gitmoji"
@@ -37,7 +37,7 @@ class Gogitmoji < Formula
     end
     if Hardware::CPU.intel?
       url "https://github.com/oorrwullie/gogitmoji/releases/download/v0.0.2/gogitmoji_0.0.2_linux_amd64.tar.gz"
-      sha256 "628a362d697c2b3e9bd60f7326b24b3e9b5234006c39eaaaa2dea5f666ae8961"
+      sha256 "66922e2788f8deac32898870703e09d74490cdf005bd22080015b0f800c53878"
 
       def install
         bin.install "gitmoji"
